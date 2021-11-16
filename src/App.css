@@ -1,5 +1,70 @@
 .App {
   text-align: center;
+  background: black;
+  color: white;
+  display: grid;
+  grid-template-rows: 100px 50px 1fr;
+  height: 100vh;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.search-region {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  gap: 10px;
+}
+
+.item-list {
+  display: grid;
+  background: hsla(300, 100%, 25%, 0.849);
+}
+
+.pop-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: orange;
+}
+
+a {
+  background: rgb(36, 84, 187);
+  color: yellow;
+  width: 100%;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  background: blue;
+  width: 100%;
+}
+
+table {
+  margin-top: 50px;
+  width: 100%
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+select {
+  text-align: center;
+}
+
+input {
+  text-align: center;
 }
 
 .App-logo {
